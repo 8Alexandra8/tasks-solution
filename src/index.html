@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasks solution</title>
+    <link rel="stylesheet" href="index.scss">
+</head>
+<body>
+<div class="container">
+    <div class="tasksListContainer">
+        <div class="tasksList">
+            <div class='taskCard'>
+                <div class="taskCard-content">
+                    <label>Условие</label>
+                    <span>Напишите функцию, которая принимает массив строк. Вернуть самую длинную строку.</span>
+                </div>
+                <div class="taskCard-content">
+                    <label>Введите элементы массива через пробел:</label>
+                    <div class="taskCard-content-actions">
+                        <div class="inputContainer">
+                            <input type="text" id="input-task1"/>
+                        </div>
+                        <button id="button-task1">Вернуть самую длинную строку</button>
+                    </div>
+                </div>
+                <div class="taskCard-content">
+                    <label>Выходное значение</label>
+                    <span id="answer-task1">Неизвестно</span>
+                </div>
+            </div>
+            <div class='taskCard'>
+                <div class="taskCard-content">
+                    <label>Условие</label>
+                    <span>Напишите функцию, которая принимает строку и возвращает символ, который чаще всего используется в строке.</span>
+                </div>
+                <div class="taskCard-content">
+                    <label>Введите строку:</label>
+                    <div class="taskCard-content-actions">
+                        <div class="inputContainer">
+                            <input type="text" id="input-task2"/>
+                        </div>
+                        <button id="button-task2">Вернуть символ</button>
+                    </div>
+                </div>
+                <div class="taskCard-content">
+                    <label>Выходное значение</label>
+                    <span id="answer-task2">Неизвестно</span>
+                </div>
+            </div>
+            <div class='taskCard'>
+                <div class="taskCard-content">
+                    <label>Условие</label>
+                    <span>Замените в строке из предыдущего задания самый часто встречающийся символ на символ, который введет пользователь через prompt или input.</span>
+                </div>
+                <div class="taskCard-content">
+                    <label>Строка из предыдущего задания</label>
+                    <span id="cond-task3">Неизвестно</span>
+                </div>
+                <div class="taskCard-content">
+                    <label>Введите символ:</label>
+                    <div class="taskCard-content-actions">
+                        <div class="inputContainer">
+                            <input type="text" id="input-task3"/>
+                        </div>
+                        <button id="button-task3">Заменить символ</button>
+                    </div>
+                </div>
+                <div class="taskCard-content">
+                    <label>Выходное значение</label>
+                    <span id="answer-task3">Неизвестно</span>
+                </div>
+            </div>
+            <div class='taskCard'>
+                <div class="taskCard-content">
+                    <label>Условие</label>
+                    <span>Напишите функцию, принимающую 2 строки и возвращающую true, если строки являются анаграммами.</span>
+                </div>
+                <div class="taskCard-content-actions-container">
+                    <div>
+                        <div class="taskCard-content">
+                            <label>Введите первую строку:</label>
+                            <div class="taskCard-content-actions">
+                                <div class="inputContainer">
+                                    <input type="text" id="input-task4-1"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="taskCard-content">
+                            <label>Введите вторую строку:</label>
+                            <div class="taskCard-content-actions">
+                                <div class="inputContainer">
+                                    <input type="text" id="input-task4-2"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="taskCard-content-actions">
+                        <button id="button-task4">Проверить строки</button>
+                    </div>
+                </div>
+                <div class="taskCard-content">
+                    <label>Выходное значение</label>
+                    <span id="answer-task4">Неизвестно</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
